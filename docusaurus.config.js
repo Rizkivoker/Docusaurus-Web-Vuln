@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Helium Cheat Sheet',
-  tagline: 'This is a Web Vulnarabilities Cheat Sheet',
+  tagline: 'This is a Web Vulnerabilities Cheat Sheet',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -31,10 +31,19 @@ const config = {
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
+
+    i18n: {
+      defaultLocale: 'en',
+      locales: ['en', 'id'],
+      localeConfigs: {
+        en: {
+          label: 'English',
+        },
+        id: {
+          label: 'Indonesian',
+        }
+      },
+    },
 
   presets: [
     [
@@ -96,6 +105,10 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            type: "localeDropdown",
+            position: "right"
+          }
         ],
       },
       footer: {
@@ -118,10 +131,6 @@ const config = {
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
                 label: 'X',
                 href: 'https://x.com/docusaurus',
               },
@@ -141,7 +150,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Web Vulnarabilities Cheat Sheet Created by Cyberarmy, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Web Vulnerabilities Cheat Sheet Created by Cyberarmy, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
