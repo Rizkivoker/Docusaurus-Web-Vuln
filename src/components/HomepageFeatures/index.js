@@ -1,36 +1,47 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import Translate from '@docusaurus/Translate';
 import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: (
+      <Translate>
+        Easy to Use
+      </Translate>
+    ),
+    description: (
+      <Translate>
+        Web Vulnerabilities Cheat Sheet was created from the number of list Web Penetration Testing has been done and put into a simple web page.
+      </Translate>
+    ),
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Web Vulnerabilities Cheat Sheet was created from the number of list 
-        Web Penetration Testing has been done and put into a simple web page.
-      </>
-    ),
   },
   {
-    title: 'Focus on What Matters',
+    title: (
+      <Translate>
+        Focus on What Matters
+      </Translate>
+    ),
+    description: (
+      <Translate>
+        This Cheat Sheet allows you to find easily the specified information of web vulnerabilities for users to use.
+      </Translate>
+    ),
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        This Cheat Sheet allows you to find easily the specified information of web vulnerabilities
-        for users to use.
-      </>
-    ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Helium Cheat Sheet was created by React and Docusaurus.
-      </>
+    title: (
+      <Translate>
+        Powered by React
+      </Translate>
     ),
+    description: (
+      <Translate>
+        Helium Cheat Sheet was created by React and Docusaurus.
+      </Translate>
+    ),
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
   },
 ];
 

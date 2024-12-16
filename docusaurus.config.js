@@ -38,10 +38,13 @@ const config = {
       localeConfigs: {
         en: {
           label: 'English',
+          direction: 'ltr',
         },
         id: {
-          label: 'Indonesian',
-        }
+          label: 'Bahasa Indonesia',
+          direction: 'ltr',
+          path: 'id',
+        },
       },
     },
 
@@ -99,16 +102,16 @@ const config = {
             position: 'left',
             label: 'Web Vulnerabilities',
           },
+          {
+            type: "localeDropdown",
+            position: "right"
+          },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
           },
-          {
-            type: "localeDropdown",
-            position: "right"
-          }
         ],
       },
       footer: {

@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "Helium Cheat Sheet",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "My Site Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Web Vulnerabilities": {
+    "message": "Web Vulnerabilities",
+    "description": "Navbar item with label Web Vulnerabilities"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

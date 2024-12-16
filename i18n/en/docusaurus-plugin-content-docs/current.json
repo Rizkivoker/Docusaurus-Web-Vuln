@@ -1,0 +1,78 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Access Control and Authentication": {
+    "message": "Access Control and Authentication",
+    "description": "The label for category Access Control and Authentication in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Access Control and Authentication.link.generated-index.description": {
+    "message": "In this page you will get the list of vulnerabilities of Access Control and Authentication",
+    "description": "The generated-index page description for category Access Control and Authentication in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Communication Security": {
+    "message": "Communication Security",
+    "description": "The label for category Communication Security in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Communication Security.link.generated-index.description": {
+    "message": "In this page you will get the list of vulnerabilities of Communication Security",
+    "description": "The generated-index page description for category Communication Security in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Content and UI Security": {
+    "message": "Content and UI Security",
+    "description": "The label for category Content and UI Security in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Content and UI Security.link.generated-index.description": {
+    "message": "In this page you will get the list of vulnerabilities of Content and UI Security",
+    "description": "The generated-index page description for category Content and UI Security in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Cross Site Attacks": {
+    "message": "Cross Site Attacks",
+    "description": "The label for category Cross Site Attacks in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Cross Site Attacks.link.generated-index.description": {
+    "message": "In this page you will get the list of vulnerabilities of Cross Site Attacks",
+    "description": "The generated-index page description for category Cross Site Attacks in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Cryptographic and Key Management": {
+    "message": "Cryptographic and Key Management",
+    "description": "The label for category Cryptographic and Key Management in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Cryptographic and Key Management.link.generated-index.description": {
+    "message": "In this page you will get the list of vulnerabilities of Cryptographic and Key Management",
+    "description": "The generated-index page description for category Cryptographic and Key Management in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Data and Input Validation": {
+    "message": "Data and Input Validation",
+    "description": "The label for category Data and Input Validation in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Data and Input Validation.link.generated-index.description": {
+    "message": "In this page you will get the list of vulnerabilities of Data and Input Validation",
+    "description": "The generated-index page description for category Data and Input Validation in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.File and Resource Management": {
+    "message": "File and Resource Management",
+    "description": "The label for category File and Resource Management in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.File and Resource Management.link.generated-index.description": {
+    "message": "In this page you will get the list of vulnerabilities of File and Resource Management",
+    "description": "The generated-index page description for category File and Resource Management in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Injection Attacks": {
+    "message": "Injection Attacks",
+    "description": "The label for category Injection Attacks in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Injection Attacks.link.generated-index.description": {
+    "message": "In this page you will get the list of vulnerabilities of Injection Attacks",
+    "description": "The generated-index page description for category Injection Attacks in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Privacy and Redirection": {
+    "message": "Privacy and Redirection",
+    "description": "The label for category Privacy and Redirection in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Privacy and Redirection.link.generated-index.description": {
+    "message": "In this page you will get the list of vulnerabilities of Privacy and Redirection",
+    "description": "The generated-index page description for category Privacy and Redirection in sidebar tutorialSidebar"
+  }
+}
